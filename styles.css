@@ -105,15 +105,17 @@ padding-bottom: 2em;
 
 button {
     background-color:#004266;
+    padding: 0.5em;
     font-size: 1em;
     margin: 5px 5px;
     width: 8em;
-    height: 8em;
+    height: 5em;
     border-radius: 10px;
 }
 
 button:active {
     background-color: #E68100;
+    color:#0074B3;
 }
 
 #projects {
@@ -166,9 +168,10 @@ footer {
 
 @media only screen and (max-width: 600px) {
     #banner-text {
-        display: block;
         width: 100%;
-        bottom: 0px;
+        position: absolute;
+        bottom: -250px;
         left: 0px;
     }
 }
+
